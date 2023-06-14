@@ -1,10 +1,10 @@
 <?php
 
   $arr = [
-    'Matheus' => 29,
-    'Pedro' => 18,
-    'Joaquim' => 14,
-    'Maria' => 12
+    'Alexander' => 29,
+    'Kelvin' => 18,
+    'Sara' => 12,
+    'Joaquim' => 14
   ];
 
   asort($arr);
@@ -13,10 +13,10 @@
   echo "<br>";
 
   $arr2 = [
-    'Matheus' => 12,
-    'Pedro' => 44,
-    'Joaquim' => 14,
-    'Maria' => 32
+    'Alexander' => 12,
+    'Kelvin' => 44,
+    'Sara' => 32,
+    'Joaquim' => 14
   ];
 
 
