@@ -1,12 +1,11 @@
 <?php
 
   $ranking = [
-    "Matheus" => 200,
-    "João" => 54,
-    "Pedro" => 444,
-    "Maria" => 239,
-    "Joana" => 123,
-    "Henrique" => 12
+    "Alexander" => 200,
+    "Kelvin" => 54,
+    "Sara" => 444,
+    "Patrick" => 239,
+    "Joaquim" => 123
   ];
 
   arsort($ranking);
