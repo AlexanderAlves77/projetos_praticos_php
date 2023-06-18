@@ -2,7 +2,7 @@
 
   class Humano {
 
-    public $idade = 29;
+    public $idade = 46;
 
     public function falar() {
       echo "Olá Mundo! <br>";
@@ -34,16 +34,16 @@
 
   }
 
-  $ze = new Humano;
+  $sara = new Humano;
 
-  $ze->falar();
-  $ze->acessaGritar();
-  $ze->acessaFalarBaixinho();
+  $sara->falar();
+  $sara->acessaGritar();
+  $sara->acessaFalarBaixinho();
 
-  $matheus = new Programador;
+  $alexander = new Programador;
 
-  echo $matheus->idade . "<br>";
+  echo $alexander->idade . "<br>";
 
-  $matheus->falar();
-  $matheus->acessaGritar();
-  $matheus->acessaFalarBaixinhoProgramador();
+  $alexander->falar();
+  $alexander->acessaGritar();
+  $alexander->acessaFalarBaixinhoProgramador();
