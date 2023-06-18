@@ -14,8 +14,8 @@
 
   }
 
-  $matheus = new Humano;
+  $alexander = new Humano;
 
-  echo $matheus::OLHOS . "<br>";
+  echo $alexander::OLHOS . "<br>";
 
-  $matheus->mostrarConstante();
+  $alexander->mostrarConstante();
